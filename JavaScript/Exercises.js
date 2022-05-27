@@ -1,3 +1,4 @@
+//BÀI 1
 document.write(`<h1 style = background-color:green>Bài 1 </h1>`);
 function factorial(num) {
     var gaithua =1;
@@ -8,6 +9,7 @@ function factorial(num) {
 }
 factorial(5);
 
+//BÀI 2
 document.write(`<h1 style = background-color:green>Bài 2 </h1>`);
 function reverseString(str) {
     var String = "";
@@ -18,7 +20,7 @@ function reverseString(str) {
 }
 reverseString('hello');
 
-
+//BÀI 3
 document.write(`<h1 style = background-color:green>Bài 3 </h1>`);
 function translate(str){
     switch(str){
@@ -43,6 +45,8 @@ function translate(str){
 
     }
 }translate(`DE`);
+
+//BÀI 4
 document.write(`<h1 style = background-color:green>Bài 4 </h1>`);
 function stringMethod(mainString) {
 
