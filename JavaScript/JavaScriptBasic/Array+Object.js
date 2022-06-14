@@ -41,16 +41,16 @@ let products = [
 
 // 7. Xóa tất cả sản phẩm của thương hiệu "Samsung" trong giỏ hàng
 
-function deleteProduct(array) {
-    let newarray = new Array();
+function removeSamsung(array) {
+        let newarray = new Array();
     for (let i = 0; i < array.length; i++) {
       if (array[i].brand !== "Samsung") {
         newarray.push(arr[i]);
       }
     }
-   document.write(newarray);
-  }
-
+    document.write(newarray)
+}
+        removeSamsung(products);
 
 // 8. Sắp xếp giỏ hàng theo price tăng dần
 
@@ -70,9 +70,12 @@ function deleteProduct(array) {
 
 // 10. Lấy ra 2 sản phẩm bất kỳ trong giỏ hàng
 
-        function randomprd(array) {
+
+
+
+        function randomproduct(array) {
             let a = Math.floor(Math.random() * arr.length);
          let b = Math.floor(Math.random() * arr.length);
             return [array[a], array[b]];
         };
-        randomprd(products);
+        randomproduct(products);
